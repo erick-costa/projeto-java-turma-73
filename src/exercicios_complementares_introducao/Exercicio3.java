@@ -14,11 +14,11 @@ public class Exercicio3 {
 		
 		leia.close();
 		
-		horas = segundos/3600;
-		segundos %= 3600;
+		horas = segundos / 3600;
+		segundos = segundos % 3600;
 		
 		minutos = segundos/60;
-		segundos %= 60;
+		segundos = segundos % 60;
 		
 		System.out.printf("Valor formatado: %d:%d:%d" ,horas, minutos, segundos);
 	}
