@@ -1,6 +1,5 @@
 package collections;
 
-import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
@@ -55,6 +54,8 @@ public class Exercicio01Estruturas {
 				System.out.println("\nOpção inválida!");
 				break;
 			}
-		} while(opcao != 0);		
+		} while(opcao != 0);	
+		
+		leia.close();
 	}
 }

@@ -15,6 +15,8 @@ public class Exercicio01Collections {
 			cores.add(leia.next());
 		}
 		
+		leia.close();
+		
 		System.out.println("\nListar todas as cores:\n " + cores);
 		
 		cores.sort(null);
